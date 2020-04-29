@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.jokerchen</groupId>
+		<artifactId>pinellia</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<artifactId>common</artifactId>
+	<packaging>jar</packaging>
+
+	<name>common</name>
+	<description>Demo project for Spring Boot</description>
+
+
+	<dependencies>
+		<!-- 数据连接使用mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<!-- 持久层使用jpa -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- 展示层使用spring mvc -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- 连接池使用druid -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.1.16</version>
+		</dependency>
+
+		<!-- 权限控制用security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<!-- mvc 控制层的输入校验 -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+
+
+		<!-- 用来做http的请求发起 -->
+		<dependency>
+			<groupId>net.dongliu</groupId>
+			<artifactId>requests</artifactId>
+			<version>4.18.1</version>
+		</dependency>
+
+		<!-- 百度ocr相关使用 -->
+		<!-- <dependency>
+			<groupId>com.baidu.aip</groupId>
+			<artifactId>java-sdk</artifactId>
+			<version>4.10.0</version>
+		</dependency> -->
+		
+		<!-- 报表相关 -->
+		<dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+		<!-- <dependency> <groupId>net.sourceforge.tess4j</groupId> <artifactId>tess4j</artifactId> 
+			<version>4.3.1</version> </dependency> -->
+
+		<!--二维码生成和解析相关的jar包【生成】【解析】 -->
+		<!-- <dependency> <groupId>com.google.zxing</groupId> <artifactId>javase</artifactId> 
+			<version>3.3.3</version> </dependency> -->
+		
+		<!-- 微信小程序相关 -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.57</version>
+		</dependency>
+
+	</dependencies>
+</project>

@@ -1,0 +1,113 @@
+2020-04-25 09:07:11.151 [main] INFO  com.jokerchen.pinellia.console.ConsoleApplication - Starting ConsoleApplication on DESKTOP-BUFR1AK with PID 25552 (started by 戚培芳 in C:\Users\戚培芳\Desktop\springboot+react前后端分离项目\pinellia)
+2020-04-25 09:07:11.156 [main] INFO  com.jokerchen.pinellia.console.ConsoleApplication - The following profiles are active: dev
+2020-04-25 09:07:12.222 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-25 09:07:12.286 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
+2020-04-25 09:07:12.846 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$222ebfd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 09:07:13.403 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-04-25 09:07:13.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-25 09:07:13.424 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 09:07:13.425 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-04-25 09:07:13.433 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-04-25 09:07:13.433 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-25 09:07:13.433 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-25 09:07:13.446 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-04-25 09:07:13.592 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 09:07:13.593 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2330 ms
+2020-04-25 09:07:13.667 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-25 09:07:13.667 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-25 09:07:13.667 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-04-25 09:07:13.667 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-25 09:07:13.668 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-04-25 09:07:13.668 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-25 09:07:13.668 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2020-04-25 09:07:13.670 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-04-25 09:07:14.041 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-25 09:07:14.219 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-25 09:07:14.302 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-25 09:07:14.304 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-25 09:07:14.475 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-25 09:07:14.637 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-25 09:07:15.416 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-25 09:07:16.049 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-25 09:07:16.104 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-25 09:07:16.540 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5834198f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e3cd732, org.springframework.security.web.header.HeaderWriterFilter@7956f93a, org.springframework.web.filter.CorsFilter@4eb63dc8, org.springframework.security.web.authentication.logout.LogoutFilter@382faf51, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77bb916f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ab8589a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@144ee8a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@402d6012, org.springframework.security.web.session.SessionManagementFilter@27bb74e1, org.springframework.security.web.access.ExceptionTranslationFilter@74707df8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e28dc96]
+2020-04-25 09:07:16.613 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-04-25 09:07:16.622 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-25 09:07:16.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-04-25 09:07:16.644 [main] INFO  com.jokerchen.pinellia.console.ConsoleApplication - Started ConsoleApplication in 6.321 seconds (JVM running for 7.58)
+2020-04-25 09:09:31.624 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 09:09:31.625 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-25 09:09:31.642 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-04-25 09:09:41.641 [http-nio-8888-exec-7] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-04-25 09:09:41.994 [http-nio-8888-exec-7] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载角色信息成功。
+2020-04-25 09:09:42.014 [http-nio-8888-exec-7] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载接口信息成功。
+2020-04-25 09:09:42.016 [http-nio-8888-exec-7] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载菜单信息成功。
+2020-04-25 09:09:42.029 [http-nio-8888-exec-7] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 09:09:42.030 [http-nio-8888-exec-7] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 10:07:13.125 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载角色信息成功。
+2020-04-25 10:07:13.138 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载接口信息成功。
+2020-04-25 10:07:13.140 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载菜单信息成功。
+2020-04-25 10:07:13.149 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 10:07:13.150 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 10:33:27.491 [http-nio-8888-exec-3] ERROR c.j.pinellia.common.aspect.OperationLogAspect - com.jokerchen.pinellia.common.sysParam.controller.impl.SysParamControllerImpl
+2020-04-25 10:33:33.270 [http-nio-8888-exec-9] ERROR c.j.pinellia.common.aspect.OperationLogAspect - com.jokerchen.pinellia.common.sysParam.controller.impl.SysParamControllerImpl
+2020-04-25 11:12:05.522 [http-nio-8888-exec-8] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载角色信息成功。
+2020-04-25 11:12:05.532 [http-nio-8888-exec-8] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载接口信息成功。
+2020-04-25 11:12:05.533 [http-nio-8888-exec-8] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载菜单信息成功。
+2020-04-25 11:12:05.539 [http-nio-8888-exec-8] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 11:12:05.540 [http-nio-8888-exec-8] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 19:32:45.544 [main] INFO  com.jokerchen.pinellia.console.ConsoleApplication - Starting ConsoleApplication on DESKTOP-BUFR1AK with PID 17164 (started by 戚培芳 in C:\Users\戚培芳\Desktop\springboot+react前后端分离项目\pinellia)
+2020-04-25 19:32:45.560 [main] INFO  com.jokerchen.pinellia.console.ConsoleApplication - The following profiles are active: dev
+2020-04-25 19:32:48.205 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-25 19:32:48.365 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135ms. Found 0 repository interfaces.
+2020-04-25 19:32:49.468 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f10667e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 19:32:50.715 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-04-25 19:32:50.742 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-25 19:32:50.751 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-25 19:32:50.752 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-04-25 19:32:50.767 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-04-25 19:32:50.768 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-25 19:32:50.768 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-25 19:32:50.786 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-04-25 19:32:51.108 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-25 19:32:51.109 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5299 ms
+2020-04-25 19:32:51.220 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-25 19:32:51.221 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-25 19:32:51.222 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-04-25 19:32:51.222 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-25 19:32:51.224 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-04-25 19:32:51.225 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-25 19:32:51.225 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2020-04-25 19:32:51.227 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-04-25 19:32:51.754 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-25 19:32:52.200 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-25 19:32:52.328 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-25 19:32:52.330 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-25 19:32:52.573 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-25 19:32:52.803 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-25 19:32:54.157 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-25 19:32:55.607 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-25 19:32:55.776 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-25 19:32:56.737 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14485747, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d3930fe, org.springframework.security.web.header.HeaderWriterFilter@7f6b57f2, org.springframework.web.filter.CorsFilter@59fea5f5, org.springframework.security.web.authentication.logout.LogoutFilter@485deee1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@395281c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15f2a43f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36e409e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78eafad, org.springframework.security.web.session.SessionManagementFilter@52b32b70, org.springframework.security.web.access.ExceptionTranslationFilter@d3cce46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17c53dfb]
+2020-04-25 19:32:56.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-04-25 19:32:56.872 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-25 19:32:56.906 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-04-25 19:32:56.911 [main] INFO  com.jokerchen.pinellia.console.ConsoleApplication - Started ConsoleApplication in 12.808 seconds (JVM running for 15.083)
+2020-04-25 19:33:09.508 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 19:33:09.508 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-25 19:33:09.520 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-25 19:33:16.372 [http-nio-8888-exec-5] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-04-25 19:33:16.969 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载角色信息成功。
+2020-04-25 19:33:16.994 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载接口信息成功。
+2020-04-25 19:33:16.996 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载菜单信息成功。
+2020-04-25 19:33:17.010 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 19:33:17.010 [http-nio-8888-exec-5] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 20:52:53.133 [http-nio-8888-exec-1] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载角色信息成功。
+2020-04-25 20:52:53.170 [http-nio-8888-exec-1] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载接口信息成功。
+2020-04-25 20:52:53.172 [http-nio-8888-exec-1] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载菜单信息成功。
+2020-04-25 20:52:53.189 [http-nio-8888-exec-1] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
+2020-04-25 20:52:53.189 [http-nio-8888-exec-1] INFO  com.jokerchen.pinellia.console.login.SecurityUtil - qpf用户加载组织信息成功。
